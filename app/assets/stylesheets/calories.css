@@ -16,6 +16,11 @@
   align-items: center;
 }
 
+.side-pict {
+  width: 280px;
+  height: 84vh;
+  opacity: 30%;
+}
 .header-name a{
   font-size: 16px;
   color: #FAFAFA;
@@ -24,7 +29,7 @@
 
 .create-room a {
   font-size: 10px;
-  border: 1px solid lightblue;
+  border: 1px solid rgb(128, 27, 200);
   padding: 14px;
   color: deepskyblue;
   text-decoration: none;
@@ -40,7 +45,7 @@
 }
 
 .header {
-  background-color: #071933;;
+  background-color: #0c041f;;
   height: 100px;
   padding: 0 40px;
   display: flex;
@@ -48,12 +53,21 @@
 }
 
 .left-header {
-  background-color: #071933;
+  background-color: #114919;
 }
 .header-title {
   color: rgb(93, 184, 51);
   font-size: 35px;
   margin-top: 36px;
+}
+
+.head-pict {
+  width: 220px;
+  height: 100px;
+  opacity: 30%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
 }
 
 .header-button {
