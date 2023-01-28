@@ -8,7 +8,7 @@
 }
 
 .side-bar-header {
-  height: 100px;
+  height: 70px;
   padding: 0 20px;
   background-color: #0c3620;
   display: flex;
@@ -46,7 +46,7 @@
 
 .header {
   background-color: #0c041f;;
-  height: 100px;
+  height: 70px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
@@ -55,31 +55,45 @@
 .left-header {
   background-color: #114919;
 }
-.header-title {
-  color: rgb(93, 184, 51);
-  font-size: 35px;
-  margin-top: 36px;
-}
+
 
 .head-pict {
-  width: 220px;
-  height: 100px;
+  height: 100%;
+  width: 100%;
   opacity: 30%;
   display: flex;
   justify-content: space-between;
   position: absolute;
 }
 
-.header-button {
-  margin-top: 40px;
-  background-color: #a75b14;
+.lists-right {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
 }
 
-.header-button a {
+.lists-right a {
   text-decoration: none;
-  border: 1px solid #a75b14;
-  color: #13110e;
+  
+  color: #eae5df;
   padding: 20px;
+}
+
+.logout {
+  text-decoration: none;
+  color: #333333;
+}
+
+.login {
+  text-decoration: none;
+  line-height: 32px;
+  margin-right: 3vw;
+  color: #dde9e7;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: #e4e8ed;
 }
 .messages {
   background-color: #070e46;
