@@ -17,8 +17,8 @@
 }
 
 .side-pict {
-  width: 280px;
-  height: 84vh;
+  width: 100%;
+  height: 100%;
   opacity: 30%;
 }
 .header-name a{
@@ -37,7 +37,6 @@
 .rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
-  padding: 0 20px;
 }
 .main {
   background-color: #FFFFFF;
@@ -47,7 +46,6 @@
 .header {
   background-color: #0c041f;;
   height: 70px;
-  padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -58,8 +56,8 @@
 
 
 .head-pict {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100wh;
   opacity: 30%;
   display: flex;
   justify-content: space-between;
@@ -98,10 +96,10 @@
 .messages {
   background-color: #070e46;
   height: calc(100vh - 100px - 90px);
-  padding: 46px 40px 0;
+  padding: 46px 0px 0;
 }
 .form {
   background-color: #DDDDDD;
   height: 90px;
-  padding: 20px 40px;
+  padding: 20px 0px;
 }
