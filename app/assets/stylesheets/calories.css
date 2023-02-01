@@ -36,7 +36,7 @@
 }
 .rooms {
   background-color: #2F3E51;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 70px);
 }
 .main {
   background-color: #FFFFFF;
@@ -44,7 +44,7 @@
 }
 
 .header {
-  background-color: #0c041f;;
+  background-color: #370ca3;;
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@
 
 .head-pict {
   height: 100vh;
-  width: 100wh;
+  width: calc(100vw - 300px);
   opacity: 30%;
   display: flex;
   justify-content: space-between;
@@ -94,12 +94,11 @@
   color: #e4e8ed;
 }
 .messages {
-  background-color: #070e46;
-  height: calc(100vh - 100px - 90px);
+  background-color: #05060c;
+  height: calc(100vh - 70px - 90px);
   padding: 46px 0px 0;
 }
 .form {
   background-color: #DDDDDD;
   height: 90px;
-  padding: 20px 0px;
 }
